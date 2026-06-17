@@ -70,4 +70,8 @@
 		<None Include="$(ModTargetsFile)" Link="Properties\Mod.targets" />
 	</ItemGroup>
 
+	<Target Name="BuildUI" AfterTargets="DeployWIP" Condition="Exists('UI\package.json')">
+		<Exec Command="npm run build" WorkingDirectory="UI" />
+	</Target>
+
 </Project>

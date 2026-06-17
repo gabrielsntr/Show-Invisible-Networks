@@ -12,7 +12,7 @@ export const ShowInvisibleNetworksComponent: ModuleRegistryExtend = (Component: 
     const visible = useValue(invisibleNetworksVisible$) as boolean;
 
     result.props.children?.push(
-      <VanillaComponentResolver.instance.Section title="Show Invisible Networks">
+      <VanillaComponentResolver.instance.Section title="Invisible Networks">
         <VanillaComponentResolver.instance.ToolButton
           className={VanillaComponentResolver.instance.toolButtonTheme.button}
           selected={visible}

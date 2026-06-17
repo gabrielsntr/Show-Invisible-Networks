@@ -14,6 +14,7 @@ Adds a hotkey, Options toggle, and tool panel button for showing invisible netwo
 
 ## Requirement
 - Extra Networks and Areas
+- Unified Icon Library
 
 This mod uses the game's marker visibility flag, so it can also reveal vanilla markers.
 	</LongDescription>
@@ -31,6 +32,7 @@ This mod uses the game's marker visibility flag, so it can also reveal vanilla m
 	<GameVersion Value="1.0.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="77175" /> <!-- Extra Networks and Areas -->
+	<Dependency Id="74417" DisplayName="Unified Icon Library" />
 	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
 	<RequiredDLC Value="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
