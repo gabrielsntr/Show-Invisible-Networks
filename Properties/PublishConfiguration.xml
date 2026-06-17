@@ -21,7 +21,8 @@ This mod uses the game's marker visibility flag, so it can also reveal vanilla m
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
-	<Screenshot Value="" />
+	<Screenshot Value="Properties/off.jpg" />
+	<Screenshot Value="Properties/on.jpg" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="" />
 	<!--Link to the forum post where the mod can be discussed-->
