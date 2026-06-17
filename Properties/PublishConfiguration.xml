@@ -2,21 +2,32 @@
 	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
 	<ModId Value="" />
 	<!--Name of the mod to display to players-->
-	<DisplayName Value="ShowInvisibleNetworks" />
+	<DisplayName Value="Show Invisible Networks" />
 	<!--Short description of the mod-->
-	<ShortDescription Value="Toggle visibility for invisible networks and markers." />
+	<ShortDescription Value="Reveal invisible networks and markers whenever you need to work around them." />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
 # Show Invisible Networks
 
-Adds a hotkey, Options toggle, and tool panel button for showing invisible networks and markers.
+Invisible paths are useful for custom layouts, but they can be difficult to work around after they are placed. This mod lets you reveal them when adding surfaces, areas, or other details so you can see exactly where the paths are.
 
-## Requirement
+## Features
+- Toggle invisible networks and markers at any time
+- Tool options panel button
+- Rebindable keyboard shortcut (Ctrl+M by default)
+- Options menu toggle
+- Persistent visibility setting
+
+## Controls
+Use the Invisible Networks button in the tool options panel, press Ctrl+M, or use the toggle in the Options menu.
+
+## Requirements
 - Extra Networks and Areas
 - Unified Icon Library
 
-This mod uses the game's marker visibility flag, so it can also reveal vanilla markers.
+## Known behavior
+The mod uses the game's global marker visibility flag. It can therefore reveal vanilla markers, spawners, points, and other marker entities in addition to Extra Networks and Areas paths.
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
@@ -24,24 +35,22 @@ This mod uses the game's marker visibility flag, so it can also reveal vanilla m
 	<Screenshot Value="Properties/off.jpg" />
 	<Screenshot Value="Properties/on.jpg" />
 	<!--Tag, can be set multiple times-->
-	<Tag Value="" />
+	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
-	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0" />
+	<ModVersion Value="1.0.0" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.0.*" />
+	<GameVersion Value="1.5.10*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="77175" /> <!-- Extra Networks and Areas -->
 	<Dependency Id="74417" DisplayName="Unified Icon Library" />
 	<!--Required DLC, can be set multiple times. Supported values are "Landmark Buildings", "San Fransisco Set", "Beach Properties", "Urban Promenades", "Modern Architecture"-->
-	<RequiredDLC Value="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
+	<ChangeLog Value="Initial release." />
 	<!--<ChangeLog>
 	</ChangeLog>-->
 	<!--External link, can be set multiple times. supported types are "discord", "github", "youtube", "twitch", "x", "paypal", "patreon", "buymeacoffee", "kofi", "crowdin", "gitlab", "gofundme"-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/gabrielsntr/Show-Invisible-Networks" />
 	<!--Supported values Public, Private, Unlisted-->
-	<AccessLevel Value="Public" />
+	<AccessLevel Value="Unlisted" />
 </Publish>
